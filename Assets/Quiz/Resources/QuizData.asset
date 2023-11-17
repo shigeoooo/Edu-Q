@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: QuizData
+  m_EditorClassIdentifier: 
+  categoryName: Quiz
+  questions:
+  - questionInfo: Which of the following phrases is correct?
+    options:
+    - The cat is sitting on the mat.
+    - The cat is sitting on a mats.
+    correctAns: The cat is sitting on the mat.
+    explanation: The preposition "on" requires a singular noun, so the phrase "a
+      mat" is correct. The plural form of "mat" is "mats", but it is not used in
+      this context.
+    timerScript: {fileID: 0}
+  - questionInfo: 'Which of the following is the plural form of the word "box"?  '
+    options:
+    - boxen
+    - boxes
+    correctAns: boxes
+    explanation: The plural form of "box" is "boxes". The word "boxen" is not a correct
+      plural form.
+    timerScript: {fileID: 0}
+  - questionInfo: 'Which of the following is the idiom for "to die"?  '
+    options:
+    - kick the bucket
+    - kick the bucketts
+    correctAns: kick the bucket
+    explanation: 'The idiom "kick the bucket" means to die. The plural form of "bucket"
+      is "buckets", but it is not used in this context. '
+    timerScript: {fileID: 0}
+  - questionInfo: 'Which of the following phrases is correct?  '
+    options:
+    - I saw the man with the telescope.
+    - I saw the man who had a telescope.
+    correctAns: I saw the man with the telescope.
+    explanation: The phrase "with the telescope" modifies the noun "man", so it should
+      be placed next to the noun. The phrase "who had a telescope" is a relative
+      clause, and it should be used when the noun "man" is not the subject of the
+      sentence.
+    timerScript: {fileID: 0}
+  - questionInfo: Which of the following is the correct way to use the idiom "spill
+      the beans"?
+    options:
+    - She spilled the beans to her friends.
+    - She spilled the beans to her friend.
+    correctAns: She spilled the beans to her friends.
+    explanation: The idiom "spill the beans" means to reveal a secret. The correct
+      way to use the idiom is with the plural form of the word "bean".
+    timerScript: {fileID: 0}
+  - questionInfo: Which of the following is the idiom for "to be very tired"?
+    options:
+    - beat around the bush
+    - beat around the bushes
+    correctAns: beat around the bushes
+    explanation: The idiom "beat around the bush" means to avoid getting to the point.
+      The plural form of "bush" is "bushes", and it is used in this context to mean
+      "to waste time".
+    timerScript: {fileID: 0}
+  - questionInfo: 'Which of the following phrases is correct?  '
+    options:
+    - The cat is playing with the ball of yarns.
+    - The cat is playing with the ball of yarn.
+    correctAns: The cat is playing with the ball of yarn.
+    explanation: 'The article "the" is only used before singular nouns, so the phrase
+      "the ball of yarn" is correct. The plural form of "yarn" is "yarns", but it
+      is not used in this context. '
+    timerScript: {fileID: 0}
+  - questionInfo: 'Which of the following is the idiom for "to be very easy"?  '
+    options:
+    - a piece of cake
+    - a piece of cakes
+    correctAns: a piece of cake
+    explanation: The idiom "a piece of cake" means something that is very easy. The
+      plural form of "cake" is "cakes", but it is not used in this context.
+    timerScript: {fileID: 0}
+  - questionInfo: Which of the following is the idiom for "to be very busy"?
+    options:
+    - burning the midnight oil
+    - burning the midnight oils
+    correctAns: burning the midnight oil
+    explanation: The idiom "burning the midnight oil" means to work late into the
+      night. The plural form of "oil" is "oils", but it is not used in this context.
+    timerScript: {fileID: 0}
+  - questionInfo: 'Which of the following is the idiom for "to be very careful"?  '
+    options:
+    - take it with a grain of salt
+    - take it with a grain of salts
+    correctAns: take it with a grain of salt
+    explanation: The idiom "take it with a grain of salt" means to not believe something
+      completely. The plural form of "salt" is "salts", but it is not used in this
+      context.
+    timerScript: {fileID: 0}
